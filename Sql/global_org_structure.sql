@@ -1,0 +1,16 @@
+create table if not exists global_org_structure(
+record_key Integer not null,
+org_portfolio_code Integer null,
+org_portfoilo_code_position varchar(255) null,
+org_portfolio_code_length varchar(255) null,
+org_check_digits_position varchar(255) null,
+org_check_digits_length varchar(255) null,
+org_identifier_position char null,
+org_identifier_length varchar(255) null,
+branch_identifier_position varchar(255) null,
+branch_identifier_length varchar(255) null,
+org_national_id_length varchar(255) null,
+access_number_position varchar(255) null,
+access_number_length varchar(255) null,
+org_total_length varchar(255) null,
+constraint global_org_structure_pk primary key(record_key));

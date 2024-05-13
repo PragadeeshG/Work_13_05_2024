@@ -1,0 +1,15 @@
+create table if not exists access_response(
+access_id Integer not null,
+access_owner varchar(255) null,
+activeaccess char null,
+access_type_id Integer null,
+access_type varchar(255) null,
+access_status varchar(255) null,
+access_desaccess_requestiption Integer null,
+user_groups_count Integer null,
+user_countries varchar(255) null,
+user_countries_count Integer null,
+user_groups varchar(255) null,
+status varchar(255) null,
+remarks varchar(255) null,
+constraint access_response_pk primary key(access_id));
